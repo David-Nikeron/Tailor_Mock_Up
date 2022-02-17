@@ -1,0 +1,202 @@
+body {
+    margin: 0 3%;
+    background: linear-gradient(#fff 10%, #003044 20% );
+    font-family: 'Courier New', Courier, monospace;
+   }
+
+nav.navbar {
+    background-color: #003044;
+}
+
+nav.navbar > div.container-fluid > div.navbar-header > button > span {
+    color: #b4914e;
+}
+
+nav.navbar > 
+div.wrapper {
+    height: 100%;
+}
+
+div.navigation {
+    border: solid black 5px;
+}
+
+div.intro {
+    margin-bottom: 3%;
+}
+
+div.intro > img {
+    height: 100%; 
+    width: 100%;
+}
+
+div.services {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 3% 0;
+}
+div.services  > div.service {
+    width: 300px;
+    border: solid #b4914e 1px;
+    color: #b4914e;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    margin: 20px 0 0 0;
+}
+
+div.services  > div.service > h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+
+div.categories {
+    margin: 3% 3%;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 3% 0;
+}
+
+
+div.categories  div {
+    width: 300px;
+    border: solid #b4914e 1px;
+    color: #b4914e;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    margin: 20px 0 0 0;
+   
+}
+div.categories  div a {
+     text-decoration: none;
+    color: #b4914e;
+
+}
+
+
+div.categories  div a:hover {
+    text-decoration: underline;
+   color: #fff;
+
+}
+
+
+div.categories div a img {
+    width: 100%;
+    height: 100%;
+}
+section.about_us {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10% 0;
+    justify-content: center;
+}
+
+section.about_us > div.text_about {
+    border: solid #b4914e;
+    padding: 70px 50px;
+    text-align: center;
+    width: 65%;
+
+}
+
+div.text_about  > h1 {
+    color: #b4914e;
+
+}
+
+div.text_about > div.about_paragraphs > p {
+    color: #fff;
+    line-height: 1.5;
+
+}
+
+section.about_us > div.image {
+    width: 28%;
+    overflow: hidden;
+}
+section.about_us > div.image > img {
+    min-width: 300px;
+}
+
+
+section.references_section {
+   
+    align-items: center;
+}
+
+section.reference_section > h1 {
+    color: #b4914e;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+
+section.reference_section > div.refer_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+
+
+
+}
+
+section.reference_section > div.refer_list  > div {
+    color: #b4914e;
+    font-size: 24px;
+    width: 25%;
+    margin: 0 10px 10px 0;
+    
+}
+
+
+section.reference_section > div.refer_list  > div > img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    div.categories {
+        display: flex;
+    }
+
+
+div.categories div {
+    width: 100%;
+    display: block;
+}
+body {
+    background: linear-gradient(#fff 5%, #003044 10% );
+   }
+   
+   
+   section.about_us > div.text_about {
+    width: 90%;
+    line-height: 1.5;
+    font-size: 18px;
+
+}
+
+section.about_us > div.image {
+    width: 100%;
+}
+
+
+}
+
+
